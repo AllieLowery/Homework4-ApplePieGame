@@ -13,6 +13,7 @@
 		6A3CEED029D78E6100E0D763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3CEECE29D78E6100E0D763 /* Main.storyboard */; };
 		6A3CEED229D78E6100E0D763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A3CEED129D78E6100E0D763 /* Assets.xcassets */; };
 		6A3CEED529D78E6100E0D763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3CEED329D78E6100E0D763 /* LaunchScreen.storyboard */; };
+		6A3CEEDD29D7BA2A00E0D763 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CEEDC29D7BA2A00E0D763 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A3CEED129D78E6100E0D763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A3CEED429D78E6100E0D763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A3CEED629D78E6100E0D763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3CEEDC29D7BA2A00E0D763 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6A3CEEC829D78E6100E0D763 /* AppDelegate.swift */,
 				6A3CEECA29D78E6100E0D763 /* SceneDelegate.swift */,
 				6A3CEECC29D78E6100E0D763 /* ViewController.swift */,
+				6A3CEEDC29D7BA2A00E0D763 /* Game.swift */,
 				6A3CEECE29D78E6100E0D763 /* Main.storyboard */,
 				6A3CEED129D78E6100E0D763 /* Assets.xcassets */,
 				6A3CEED329D78E6100E0D763 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				6A3CEECD29D78E6100E0D763 /* ViewController.swift in Sources */,
 				6A3CEEC929D78E6100E0D763 /* AppDelegate.swift in Sources */,
 				6A3CEECB29D78E6100E0D763 /* SceneDelegate.swift in Sources */,
+				6A3CEEDD29D7BA2A00E0D763 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +305,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.allisonlowery.Homework4-ApplePieGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -328,9 +335,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.allisonlowery.Homework4-ApplePieGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
